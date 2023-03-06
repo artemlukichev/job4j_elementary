@@ -13,6 +13,7 @@ public class TwoNumberSum {
                i++;
                back = false;
             } else if (j == array.length - 1 && !back) {
+                i++;
                 back = true;
             }
             j = back ? (j - 1) : (j + 1);
